@@ -37,9 +37,6 @@ Create a `.env` file in the root directory with your API credentials:
 # Binance API Configuration
 BINANCE_API_KEY=your_binance_api_key_here
 BINANCE_SECRET_KEY=your_binance_secret_key_here
-
-# Optional: Gemini API Key (for future AI integrations)
-GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 **Security Note**: Never commit the `.env` file to version control. It is already included in `.gitignore`.
