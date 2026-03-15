@@ -10,7 +10,8 @@ class BinanceTrader:
         self.client = Client(
             config.BINANCE_API_KEY, 
             config.BINANCE_SECRET_KEY,
-            {"verify": True, "timeout": 20}
+            {"verify": True, "timeout": 20},
+            tld='us'
         )
         self.recv_window = 5000  # 5 seconds
         # Force initial time sync
